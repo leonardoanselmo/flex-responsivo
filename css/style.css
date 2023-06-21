@@ -46,6 +46,14 @@ header {
 a {
   color: #fff;
   text-decoration: none;
+  padding: 8px;
+}
+
+a:hover {
+  background-color: #fff;
+  color: #6610f2;
+  border-radius: 4px;
+  transition: all 0.3s ease;
 }
 
 /* Hero */
@@ -140,6 +148,10 @@ a {
   }
   a {
     color: #333;
+  }
+  a:hover {
+    background-color: #6610f2;
+    color: #fff;    
   }
   #menu_toggle {
     width: 20px;
