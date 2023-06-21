@@ -35,6 +35,12 @@ header {
 
 .nav_logo {
   padding: 10px 0;
+  font-size: 2rem;
+}
+
+.nav_logo a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .menu_itens {
@@ -43,13 +49,13 @@ header {
   gap: 20px;
 }
 
-a {
+.menu_itens a {
   color: #fff;
   text-decoration: none;
   padding: 8px;
 }
 
-a:hover {
+.menu_itens a:hover {
   background-color: #fff;
   color: #6610f2;
   border-radius: 4px;
@@ -127,11 +133,14 @@ a:hover {
 @media (width < 860px) {
   #menu_toggle {
     display: block;
-  }
+  }  
   .nav {
     padding: 0 20px;
     background-color: #fff;
   }
+  .nav_logo a {
+    color: #333;
+  }  
   .menu_itens {
     position: fixed;
     top: 0;
@@ -146,10 +155,10 @@ a:hover {
   .showMenu .menu_itens {
     left: 0;
   }
-  a {
+  .menu_itens a {
     color: #333;
   }
-  a:hover {
+  .menu_itens a:hover {
     background-color: #6610f2;
     color: #fff;    
   }
